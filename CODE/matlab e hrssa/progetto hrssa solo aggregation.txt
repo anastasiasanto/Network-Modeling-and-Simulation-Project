@@ -1,0 +1,36 @@
+# protein aggretations-only MODEL
+System
+units of measurement volume= l, time=min
+
+System
+	volume=1.660538783e-24 # volume is set to 1/nAvogadro
+	abundances Muno=5000, Mdue=100, Mtre=100,Mquattro=100,Mcinque=100,Msei=100,Msette=100,Motto=100
+
+     2*Muno -> Mdue rate  0.00001
+     2*Mdue + 2*Muno -> Msei rate 5e-06
+     Muno + Mdue -> Mtre rate 2.5e-06
+     Muno + Msei -> Msette rate 1.25e-06
+     Muno + Mdue -> Mquattro rate 6.25e-07
+     Mdue + Mcinque -> Msette rate 3.125e-07
+     2*Mdue -> Mquattro rate 1.5625e-07
+     2*Mtre + Muno -> Msette rate 7.8125e-08
+     Muno + Mquattro -> Mcinque rate 3.90625e-08
+     Mtre + Mquattro -> Msette rate 1.953125e-08
+     Muno + 2*Mdue -> Mcinque rate 9.765625e-09
+     Muno + 3*Mdue -> Msette rate 4.8828125e-09
+     2*Mtre -> Mcinque rate 2.44140625e-09
+     Muno + Msette -> Motto rate 1.220703125e-09
+     Muno + Mcinque -> Msei rate 6.103515625e-10
+     Mdue + Msei -> Motto rate 3.0517578125e-10
+     Mdue + Mquattro -> Msei rate 1.52587890625e-10
+     Mtre + Mcinque -> Motto rate 7.62939453125e-11
+     2*Mtre -> Msei rate 3.814697265625e-11
+     2Mquattro -> Motto rate 1.9073486328125e-11
+     Muno + Mdue + Mcinque -> Motto rate 9.5367431640625e-12
+     Muno + Mtre + Mquattro -> Motto rate 4.76837158203125e-12
+     2*Mdue + Mquattro -> Motto rate 2.384185791015625e-12
+     Mdue + 2*Mtre -> Motto rate  1.1920928955078126e-12
+     2*Muno + 2*Mtre -> Motto rate 5.960464477539063e-13
+     4*Mdue -> Motto rate 2.9802322387695315e-13
+     2*Mdue + Mdue + Mquattro -> Motto rate 1.4901161193847657e-13
+

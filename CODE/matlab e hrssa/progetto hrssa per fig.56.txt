@@ -1,0 +1,61 @@
+# protein aggretations-fragmentation MODEL, figura5-7 RATE CONSTANTS
+System
+units of measurement volume= l, time=min
+
+System
+	volume=1.660538783e-24 # volume is set to 1/nAvogadro
+	abundances Muno=5000, Mdue=100, Mtre=100,Mquattro=100,Mcinque=100,Msei=100,Msette=100,Motto=100
+2*Muno -> Mdue rate 1e-05
+Mdue -> 2*Muno rate 5e-06
+Muno + Mdue -> Mtre rate 5e-06
+Mtre -> Muno + Mdue rate 2.5e-06
+Muno + Mtre -> Mquattro rate 2.5e-06
+Mquattro -> Muno + Mtre rate 1.25e-06
+2*Mdue -> Mquattro rate 1.25e-06
+Mquattro -> 2*Mdue rate 6.25e-07
+Muno + Mquattro -> Mcinque rate 6.25e-07
+Mcinque -> Muno + Mquattro rate 3.125e-07
+Muno + 2*Mdue -> Mcinque rate 3.125e-07
+Mcinque -> Muno + 2*Mdue rate 1.5625e-07
+Mdue + Mtre -> Mcinque rate 1.5625e-07
+Mcinque -> Mdue + Mtre rate 7.8125e-08
+Muno + Mcinque -> Msei rate 7.8125e-08
+Msei -> Muno + Mcinque rate 3.90625e-08
+Mdue + Mquattro -> Msei rate 3.90625e-08
+Msei -> Mdue + Mquattro rate 1.953125e-08
+2*Mtre -> Msei rate 1.953125e-08
+Msei -> 2*Mtre rate 9.765625e-09
+2*Mdue + 2*Muno -> Msei rate 9.765625e-09
+Msei -> 2*Mdue + 2*Muno rate 4.8828125e-09
+Muno + Msei -> Msette rate 4.8828125e-09
+Msette -> Muno + Msei rate 2.44140625e-09
+Mdue + Mcinque -> Msette rate 2.44140625e-09
+Msette -> Mdue + Mcinque rate 1.220703125e-09
+2*Mtre + Muno -> Msette rate 1.220703125e-09
+Msette -> 2*Mtre + Muno rate 6.103515625e-10
+Mtre + Mquattro -> Msette rate 6.103515625e-10
+Msette -> Mtre + Mquattro rate 3.0517578125e-10
+Muno + 3*Mdue -> Msette rate 3.0517578125e-10
+Msette -> Muno + 3*Mdue rate 1.52587890625e-10
+Muno + Msette -> Motto rate 1.52587890625e-10
+Motto -> Muno + Msette rate 7.62939453125e-11
+Mdue + Msei -> Motto rate 7.62939453125e-11
+Motto -> Mdue + Msei rate 3.814697265625e-11
+Mtre + Mcinque -> Motto rate 3.814697265625e-11
+Motto -> Mtre + Mcinque rate 1.9073486328125e-11
+2*Mquattro -> Motto rate 1.9073486328125e-11
+Motto -> 2*Mquattro rate 9.5367431640625e-12
+Muno + Mdue + Mcinque -> Motto rate 9.5367431640625e-12
+Motto -> Muno + Mdue + Mcinque rate 4.76837158203125e-12
+Muno + Mtre + Mquattro -> Motto rate 4.76837158203125e-12
+Motto -> Muno + Mtre + Mquattro rate 2.384185791015625e-12
+2*Mdue + Mquattro -> Motto rate 2.384185791015625e-12
+Motto -> 2*Mdue + Mquattro rate 1.1920928955078126e-12
+Mdue + 2*Mtre -> Motto rate 1.1920928955078126e-12
+Motto -> Mdue + 2*Mtre rate 5.960464477539063e-13
+2*Muno + 2*Mtre -> Motto rate 5.960464477539063e-13
+Motto -> 2*Muno + 2*Mtre rate 2.9802322387695315e-13
+4*Mdue -> Motto rate 2.9802322387695315e-13
+Motto -> 4*Mdue rate 1.4901161193847657e-13
+2*Muno + Mdue + Mquattro -> Motto rate 1.4901161193847657e-13
+Motto -> 2*Muno + Mdue + Mquattro rate 7.450580596923829e-14
