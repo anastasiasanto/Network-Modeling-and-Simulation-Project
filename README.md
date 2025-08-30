@@ -1,2 +1,5 @@
 # Network-Modeling-and-Simulation-Project
-Stochastic simulation algorithms for beta amyloid aggregation in Alzheimer Disease
+Stochastic simulation algorithms for beta amyloid aggregation in Alzheimer Disease. aa.2023-2024
+
+We developed some stochastic algorithms in order to simulate the
+ aggregation of the beta-amyloid protein, focusing on the case of Alzheimer disease. We conducted simulations with stochastic algorithms (Gillespie, DM, FRM), implementing customized versions for the model provided by V.P. et. al 2024, in order to simulate the aggregation mechanism of beta-amyloid proteins. We used Monte Carlo method on top of our stochastic simulation algorithms to average out the results and reduce any anomalies that may be present in a single simulation to obtain an average of the results. These simulations were performed using different initial conditions and different reaction rates. We also used the software HSimulator for the hybrid HRSSA algorithm provided by Luca Marchetti to obtain further evidence of the system dynamics. Furthermore, we looked at the stability of the equilibria, trying to obtain additional information about the protein aggregation, and we then hypothesized a possible mechanism for optimizing the parameters related to the reactions of the model.
